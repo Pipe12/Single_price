@@ -46,6 +46,35 @@ body {
   }
 }
 
+.subscription {
+  grid-column: 1 / 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px 50px;
+
+  background-color: $cyan;
+  color: $light-gray;
+
+  .subscription__price {
+    font-size: 0.8em;
+    display: flex;
+
+    span {
+      font-size: 3em;
+      margin-right: 10px;
+    }
+  }
+
+  button {
+    background-color: $brigt-Yellow;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
 .attribution { 
   font-size: 11px; text-align: center;
 }
