@@ -23,6 +23,29 @@ body {
   line-height: 1.6em;
 }
 
+.community {
+  grid-column: 1 / 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px 50px;
+
+  background-color: white;
+
+  .community__title {
+    color: $cyan;
+  }
+
+  h3 {
+    color: $brigt-Yellow;
+  }
+
+  p {
+    color: $grayis-blue;
+  }
+}
+
 .attribution { 
   font-size: 11px; text-align: center;
 }
