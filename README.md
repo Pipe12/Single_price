@@ -7,11 +7,9 @@ It is a component for a web page.
 I want practice my knowledge in web development.
   
 
-## Screenshots
+## Screenshot
 
-Include logo/demo screenshot etc.
-
-  
+![screenshot](/desing/desktop-real-image.png)  
 
 ## Tech/framework used
 
